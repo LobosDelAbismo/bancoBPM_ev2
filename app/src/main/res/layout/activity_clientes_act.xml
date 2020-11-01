@@ -21,24 +21,28 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Anadir"
             android:text="Guardar Cliente" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Mostrar"
             android:text="Mostrar Cliente" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Actualizar"
             android:text="Actualizar Cliente" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="Eliminar"
             android:text="Eliminar Cliente" />
     </LinearLayout>
 
